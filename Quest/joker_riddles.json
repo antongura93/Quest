@@ -1,0 +1,1222 @@
+[
+  [
+    {
+      "id": 0,
+      "question": "You see four masks before you.\nOne changes, another cries, the third stays silent, the fourth whispers.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The mask changes",
+        "The mask cries",
+        "The mask stays silent",
+        "The mask whispers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 1,
+      "question": "You see four noses before you.\nOne laughs, another freezes, the third stares, the fourth twitches.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The nose laughs",
+        "The nose freezes",
+        "The nose stares",
+        "The nose twitches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 2,
+      "question": "You see four hats before you.\nOne smiles, another cries, the third stays silent, the fourth trembles.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The hat smiles",
+        "The hat cries",
+        "The hat stays silent",
+        "The hat trembles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 3,
+      "question": "You see four clowns before you.\nOne smiles, another cries, the third changes, the fourth dances.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The clown smiles",
+        "The clown cries",
+        "The clown changes",
+        "The clown dances"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 4,
+      "question": "You see four laughs before you.\nOne laughs, another screams, the third disappears, the fourth echoes.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh laughs",
+        "The laugh screams",
+        "The laugh disappears",
+        "The laugh echoes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 5,
+      "question": "You see four notes before you.\nOne stares, another laughs, the third stays silent, the fourth fades.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The note stares",
+        "The note laughs",
+        "The note stays silent",
+        "The note fades"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 6,
+      "question": "You see four hats before you.\nOne smiles, another freezes, the third moves, the fourth spins.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The hat smiles",
+        "The hat freezes",
+        "The hat moves",
+        "The hat spins"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 7,
+      "question": "You see four mirrors before you.\nOne moves, another screams, the third disappears, the fourth reflects.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The mirror moves",
+        "The mirror screams",
+        "The mirror disappears",
+        "The mirror reflects"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 8,
+      "question": "You see four flowers before you.\nOne stares, another moves, the third cries, the fourth wilts.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The flower stares",
+        "The flower moves",
+        "The flower cries",
+        "The flower wilts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 9,
+      "question": "You see four gloves before you.\nOne cries, another disappears, the third stays silent, the fourth reaches.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The glove cries",
+        "The glove disappears",
+        "The glove stays silent",
+        "The glove reaches"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    }
+  ],
+  [
+    {
+      "id": 10,
+      "question": "You see four notes before you.\nOne freezes, another disappears, the third moves, the fourth burns.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The note freezes",
+        "The note disappears",
+        "The note moves",
+        "The note burns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 11,
+      "question": "You see four masks before you.\nOne stays silent, another stares, the third screams, the fourth grins.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The mask stays silent",
+        "The mask stares",
+        "The mask screams",
+        "The mask grins"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 12,
+      "question": "You see four mirrors before you.\nOne smiles, another screams, the third freezes, the fourth cracks.\n\nThe shadow doesn't lie.\n\nWhat will you choose?",
+      "options": [
+        "The mirror smiles",
+        "The mirror screams",
+        "The mirror freezes",
+        "The mirror cracks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: The shadow doesn't lie."
+    },
+    {
+      "id": 13,
+      "question": "You see four gloves before you.\nOne smiles, another freezes, the third stays silent, the fourth points.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The glove smiles",
+        "The glove freezes",
+        "The glove stays silent",
+        "The glove points"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    },
+    {
+      "id": 14,
+      "question": "You see four gloves before you.\nOne stays silent, another screams, the third cries, the fourth waves.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The glove stays silent",
+        "The glove screams",
+        "The glove cries",
+        "The glove waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 15,
+      "question": "You see four gloves before you.\nOne moves, another changes, the third stays silent, the fourth beckons.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The glove moves",
+        "The glove changes",
+        "The glove stays silent",
+        "The glove beckons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 16,
+      "question": "You see four stages before you.\nOne smiles, another stays silent, the third screams, the fourth darkens.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The stage smiles",
+        "The stage stays silent",
+        "The stage screams",
+        "The stage darkens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 17,
+      "question": "You see four noses before you.\nOne freezes, another cries, the third screams, the fourth sniffs.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The nose freezes",
+        "The nose cries",
+        "The nose screams",
+        "The nose sniffs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 18,
+      "question": "You see four noses before you.\nOne disappears, another laughs, the third moves, the fourth bleeds.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The nose disappears",
+        "The nose laughs",
+        "The nose moves",
+        "The nose bleeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 19,
+      "question": "You see four notes before you.\nOne stares, another laughs, the third stays silent, the fourth tears.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The note stares",
+        "The note laughs",
+        "The note stays silent",
+        "The note tears"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    }
+  ],
+  [
+    {
+      "id": 20,
+      "question": "You see four stages before you.\nOne cries, another disappears, the third stares, the fourth collapses.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The stage cries",
+        "The stage disappears",
+        "The stage stares",
+        "The stage collapses"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    },
+    {
+      "id": 21,
+      "question": "You see four mirrors before you.\nOne laughs, another stares, the third moves, the fourth shatters.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The mirror laughs",
+        "The mirror stares",
+        "The mirror moves",
+        "The mirror shatters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 22,
+      "question": "You see four clowns before you.\nOne smiles, another freezes, the third screams, the fourth hides.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The clown smiles",
+        "The clown freezes",
+        "The clown screams",
+        "The clown hides"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 23,
+      "question": "You see four masks before you.\nOne disappears, another stares, the third cries, the fourth melts.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The mask disappears",
+        "The mask stares",
+        "The mask cries",
+        "The mask melts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 24,
+      "question": "You see four laughs before you.\nOne laughs, another freezes, the third stays silent, the fourth breaks.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The laugh laughs",
+        "The laugh freezes",
+        "The laugh stays silent",
+        "The laugh breaks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 25,
+      "question": "You see four stages before you.\nOne changes, another smiles, the third cries, the fourth crumbles.\n\nThe shadow doesn't lie.\n\nWhat will you choose?",
+      "options": [
+        "The stage changes",
+        "The stage smiles",
+        "The stage cries",
+        "The stage crumbles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: The shadow doesn't lie."
+    },
+    {
+      "id": 26,
+      "question": "You see four masks before you.\nOne laughs, another disappears, the third screams, the fourth weeps.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The mask laughs",
+        "The mask disappears",
+        "The mask screams",
+        "The mask weeps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 27,
+      "question": "You see four noses before you.\nOne moves, another disappears, the third changes, the fourth wrinkles.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The nose moves",
+        "The nose disappears",
+        "The nose changes",
+        "The nose wrinkles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 28,
+      "question": "You see four noses before you.\nOne cries, another moves, the third freezes, the fourth flares.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The nose cries",
+        "The nose moves",
+        "The nose freezes",
+        "The nose flares"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 29,
+      "question": "You see four hats before you.\nOne laughs, another smiles, the third cries, the fourth tilts.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The hat laughs",
+        "The hat smiles",
+        "The hat cries",
+        "The hat tilts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: He who laughs is not always happy."
+    }
+  ],
+  [
+    {
+      "id": 30,
+      "question": "You see four hats before you.\nOne cries, another laughs, the third smiles, the fourth falls.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The hat cries",
+        "The hat laughs",
+        "The hat smiles",
+        "The hat falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 31,
+      "question": "You see four mirrors before you.\nOne cries, another disappears, the third moves, the fourth dims.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The mirror cries",
+        "The mirror disappears",
+        "The mirror moves",
+        "The mirror dims"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 32,
+      "question": "You see four mirrors before you.\nOne changes, another cries, the third freezes, the fourth fogs.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The mirror changes",
+        "The mirror cries",
+        "The mirror freezes",
+        "The mirror fogs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 33,
+      "question": "You see four noses before you.\nOne smiles, another stays silent, the third cries, the fourth twitches.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The nose smiles",
+        "The nose stays silent",
+        "The nose cries",
+        "The nose twitches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 34,
+      "question": "You see four noses before you.\nOne disappears, another moves, the third laughs, the fourth drips.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The nose disappears",
+        "The nose moves",
+        "The nose laughs",
+        "The nose drips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 35,
+      "question": "You see four notes before you.\nOne cries, another smiles, the third laughs, the fourth crumbles.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The note cries",
+        "The note smiles",
+        "The note laughs",
+        "The note crumbles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 36,
+      "question": "You see four hats before you.\nOne laughs, another moves, the third stays silent, the fourth tips.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The hat laughs",
+        "The hat moves",
+        "The hat stays silent",
+        "The hat tips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 37,
+      "question": "You see four stages before you.\nOne disappears, another stares, the third cries, the fourth shakes.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The stage disappears",
+        "The stage stares",
+        "The stage cries",
+        "The stage shakes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 38,
+      "question": "You see four notes before you.\nOne laughs, another moves, the third disappears, the fourth whispers.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The note laughs",
+        "The note moves",
+        "The note disappears",
+        "The note whispers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 39,
+      "question": "You see four mirrors before you.\nOne stays silent, another changes, the third smiles, the fourth warps.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The mirror stays silent",
+        "The mirror changes",
+        "The mirror smiles",
+        "The mirror warps"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    }
+  ],
+  [
+    {
+      "id": 40,
+      "question": "You see four clowns before you.\nOne freezes, another stays silent, the third moves, the fourth giggles.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The clown freezes",
+        "The clown stays silent",
+        "The clown moves",
+        "The clown giggles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 41,
+      "question": "You see four clowns before you.\nOne stares, another smiles, the third cries, the fourth performs.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The clown stares",
+        "The clown smiles",
+        "The clown cries",
+        "The clown performs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 42,
+      "question": "You see four gloves before you.\nOne cries, another moves, the third stays silent, the fourth clenches.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The glove cries",
+        "The glove moves",
+        "The glove stays silent",
+        "The glove clenches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 43,
+      "question": "You see four notes before you.\nOne changes, another cries, the third screams, the fourth folds.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The note changes",
+        "The note cries",
+        "The note screams",
+        "The note folds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 44,
+      "question": "You see four noses before you.\nOne stares, another laughs, the third freezes, the fourth scrunches.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The nose stares",
+        "The nose laughs",
+        "The nose freezes",
+        "The nose scrunches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 45,
+      "question": "You see four hats before you.\nOne changes, another moves, the third cries, the fourth floats.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The hat changes",
+        "The hat moves",
+        "The hat cries",
+        "The hat floats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 46,
+      "question": "You see four mirrors before you.\nOne freezes, another changes, the third disappears, the fourth ripples.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The mirror freezes",
+        "The mirror changes",
+        "The mirror disappears",
+        "The mirror ripples"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 47,
+      "question": "You see four notes before you.\nOne screams, another stares, the third cries, the fourth flutters.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The note screams",
+        "The note stares",
+        "The note cries",
+        "The note flutters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 48,
+      "question": "You see four clowns before you.\nOne disappears, another smiles, the third changes, the fourth bows.\n\nThe shadow doesn't lie.\n\nWhat will you choose?",
+      "options": [
+        "The clown disappears",
+        "The clown smiles",
+        "The clown changes",
+        "The clown bows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: The shadow doesn't lie."
+    },
+    {
+      "id": 49,
+      "question": "You see four notes before you.\nOne moves, another changes, the third cries, the fourth dissolves.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The note moves",
+        "The note changes",
+        "The note cries",
+        "The note dissolves"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    }
+  ],
+  [
+    {
+      "id": 50,
+      "question": "You see four notes before you.\nOne cries, another disappears, the third freezes, the fourth ignites.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The note cries",
+        "The note disappears",
+        "The note freezes",
+        "The note ignites"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 51,
+      "question": "You see four laughs before you.\nOne freezes, another changes, the third moves, the fourth bounces.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The laugh freezes",
+        "The laugh changes",
+        "The laugh moves",
+        "The laugh bounces"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 52,
+      "question": "You see four hats before you.\nOne stays silent, another screams, the third smiles, the fourth rolls.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The hat stays silent",
+        "The hat screams",
+        "The hat smiles",
+        "The hat rolls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 53,
+      "question": "You see four notes before you.\nOne stares, another stays silent, the third changes, the fourth drifts.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The note stares",
+        "The note stays silent",
+        "The note changes",
+        "The note drifts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 54,
+      "question": "You see four laughs before you.\nOne smiles, another screams, the third cries, the fourth stutters.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh smiles",
+        "The laugh screams",
+        "The laugh cries",
+        "The laugh stutters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 55,
+      "question": "You see four clowns before you.\nOne screams, another changes, the third moves, the fourth vanishes.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The clown screams",
+        "The clown changes",
+        "The clown moves",
+        "The clown vanishes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 56,
+      "question": "You see four hats before you.\nOne laughs, another moves, the third cries, the fourth trembles.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The hat laughs",
+        "The hat moves",
+        "The hat cries",
+        "The hat trembles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 57,
+      "question": "You see four hats before you.\nOne smiles, another laughs, the third disappears, the fourth glows.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The hat smiles",
+        "The hat laughs",
+        "The hat disappears",
+        "The hat glows"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 58,
+      "question": "You see four laughs before you.\nOne laughs, another stays silent, the third cries, the fourth fades.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh laughs",
+        "The laugh stays silent",
+        "The laugh cries",
+        "The laugh fades"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 59,
+      "question": "You see four noses before you.\nOne changes, another screams, the third freezes, the fourth pulses.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The nose changes",
+        "The nose screams",
+        "The nose freezes",
+        "The nose pulses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Choose the non-obvious."
+    }
+  ],
+  [
+    {
+      "id": 60,
+      "question": "You see four flowers before you.\nOne stays silent, another smiles, the third laughs, the fourth blooms.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The flower stays silent",
+        "The flower smiles",
+        "The flower laughs",
+        "The flower blooms"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 61,
+      "question": "You see four noses before you.\nOne changes, another disappears, the third screams, the fourth swells.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The nose changes",
+        "The nose disappears",
+        "The nose screams",
+        "The nose swells"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 62,
+      "question": "You see four laughs before you.\nOne changes, another stares, the third freezes, the fourth rings.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The laugh changes",
+        "The laugh stares",
+        "The laugh freezes",
+        "The laugh rings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 63,
+      "question": "You see four laughs before you.\nOne laughs, another screams, the third stays silent, the fourth whispers.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh laughs",
+        "The laugh screams",
+        "The laugh stays silent",
+        "The laugh whispers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 64,
+      "question": "You see four hats before you.\nOne stays silent, another smiles, the third freezes, the fourth droops.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The hat stays silent",
+        "The hat smiles",
+        "The hat freezes",
+        "The hat droops"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 65,
+      "question": "You see four clowns before you.\nOne stays silent, another smiles, the third screams, the fourth weeps.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The clown stays silent",
+        "The clown smiles",
+        "The clown screams",
+        "The clown weeps"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 66,
+      "question": "You see four stages before you.\nOne stares, another stays silent, the third freezes, the fourth tilts.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The stage stares",
+        "The stage stays silent",
+        "The stage freezes",
+        "The stage tilts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 67,
+      "question": "You see four masks before you.\nOne screams, another stares, the third changes, the fourth drips.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The mask screams",
+        "The mask stares",
+        "The mask changes",
+        "The mask drips"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 68,
+      "question": "You see four laughs before you.\nOne moves, another smiles, the third cries, the fourth shimmers.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh moves",
+        "The laugh smiles",
+        "The laugh cries",
+        "The laugh shimmers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 69,
+      "question": "You see four noses before you.\nOne cries, another stares, the third moves, the fourth reddens.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The nose cries",
+        "The nose stares",
+        "The nose moves",
+        "The nose reddens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Laughter can be a mask."
+    }
+  ],
+  [
+    {
+      "id": 70,
+      "question": "You see four laughs before you.\nOne laughs, another changes, the third stays silent, the fourth trembles.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The laugh laughs",
+        "The laugh changes",
+        "The laugh stays silent",
+        "The laugh trembles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 71,
+      "question": "You see four stages before you.\nOne freezes, another stares, the third laughs, the fourth burns.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The stage freezes",
+        "The stage stares",
+        "The stage laughs",
+        "The stage burns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 72,
+      "question": "You see four notes before you.\nOne stays silent, another changes, the third freezes, the fourth flies.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The note stays silent",
+        "The note changes",
+        "The note freezes",
+        "The note flies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 73,
+      "question": "You see four notes before you.\nOne screams, another smiles, the third changes, the fourth writhes.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The note screams",
+        "The note smiles",
+        "The note changes",
+        "The note writhes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 74,
+      "question": "You see four gloves before you.\nOne cries, another freezes, the third moves, the fourth grasps.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The glove cries",
+        "The glove freezes",
+        "The glove moves",
+        "The glove grasps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 75,
+      "question": "You see four notes before you.\nOne changes, another disappears, the third smiles, the fourth darkens.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The note changes",
+        "The note disappears",
+        "The note smiles",
+        "The note darkens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 76,
+      "question": "You see four masks before you.\nOne stays silent, another moves, the third stares, the fourth bleeds.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The mask stays silent",
+        "The mask moves",
+        "The mask stares",
+        "The mask bleeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Laughter can be a mask."
+    },
+    {
+      "id": 77,
+      "question": "You see four masks before you.\nOne disappears, another cries, the third smiles, the fourth distorts.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The mask disappears",
+        "The mask cries",
+        "The mask smiles",
+        "The mask distorts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    },
+    {
+      "id": 78,
+      "question": "You see four laughs before you.\nOne cries, another stays silent, the third disappears, the fourth shatters.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh cries",
+        "The laugh stays silent",
+        "The laugh disappears",
+        "The laugh shatters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 79,
+      "question": "You see four hats before you.\nOne moves, another laughs, the third screams, the fourth rots.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The hat moves",
+        "The hat laughs",
+        "The hat screams",
+        "The hat rots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: He who laughs is not always happy."
+    }
+  ],
+  [
+    {
+      "id": 80,
+      "question": "You see four hats before you.\nOne screams, another smiles, the third moves, the fourth withers.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The hat screams",
+        "The hat smiles",
+        "The hat moves",
+        "The hat withers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 81,
+      "question": "You see four stages before you.\nOne moves, another disappears, the third stays silent, the fourth cracks.\n\nThe shadow doesn't lie.\n\nWhat will you choose?",
+      "options": [
+        "The stage moves",
+        "The stage disappears",
+        "The stage stays silent",
+        "The stage cracks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: The shadow doesn't lie."
+    },
+    {
+      "id": 82,
+      "question": "You see four laughs before you.\nOne changes, another stares, the third smiles, the fourth resonates.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The laugh changes",
+        "The laugh stares",
+        "The laugh smiles",
+        "The laugh resonates"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 83,
+      "question": "You see four flowers before you.\nOne freezes, another disappears, the third moves, the fourth decays.\n\nSometimes the truth is the one that causes fear.\n\nWhat will you choose?",
+      "options": [
+        "The flower freezes",
+        "The flower disappears",
+        "The flower moves",
+        "The flower decays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Sometimes the truth is the one that causes fear."
+    },
+    {
+      "id": 84,
+      "question": "You see four laughs before you.\nOne smiles, another disappears, the third cries, the fourth spirals.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The laugh smiles",
+        "The laugh disappears",
+        "The laugh cries",
+        "The laugh spirals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 85,
+      "question": "You see four stages before you.\nOne cries, another freezes, the third smiles, the fourth empties.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The stage cries",
+        "The stage freezes",
+        "The stage smiles",
+        "The stage empties"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 86,
+      "question": "You see four clowns before you.\nOne laughs, another disappears, the third cries, the fourth mimics.\n\nA clown always plays — even in front of himself.\n\nWhat will you choose?",
+      "options": [
+        "The clown laughs",
+        "The clown disappears",
+        "The clown cries",
+        "The clown mimics"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: A clown always plays — even in front of himself."
+    },
+    {
+      "id": 87,
+      "question": "You see four clowns before you.\nOne changes, another screams, the third stays silent, the fourth lurks.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The clown changes",
+        "The clown screams",
+        "The clown stays silent",
+        "The clown lurks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 88,
+      "question": "You see four hats before you.\nOne disappears, another screams, the third freezes, the fourth splits.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The hat disappears",
+        "The hat screams",
+        "The hat freezes",
+        "The hat splits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    },
+    {
+      "id": 89,
+      "question": "You see four hats before you.\nOne changes, another smiles, the third moves, the fourth twists.\n\nHe who laughs is not always happy.\n\nWhat will you choose?",
+      "options": [
+        "The hat changes",
+        "The hat smiles",
+        "The hat moves",
+        "The hat twists"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: He who laughs is not always happy."
+    }
+  ],
+  [
+    {
+      "id": 90,
+      "question": "You see four stages before you.\nOne stays silent, another moves, the third stares, the fourth transforms.\n\nListen to the silence.\n\nWhat will you choose?",
+      "options": [
+        "The stage stays silent",
+        "The stage moves",
+        "The stage stares",
+        "The stage transforms"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Listen to the silence."
+    },
+    {
+      "id": 91,
+      "question": "You see four mirrors before you.\nOne cries, another moves, the third freezes, the fourth clouds.\n\nThe shadow doesn't lie.\n\nWhat will you choose?",
+      "options": [
+        "The mirror cries",
+        "The mirror moves",
+        "The mirror freezes",
+        "The mirror clouds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: The shadow doesn't lie."
+    },
+    {
+      "id": 92,
+      "question": "You see four noses before you.\nOne laughs, another screams, the third smiles, the fourth quivers.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The nose laughs",
+        "The nose screams",
+        "The nose smiles",
+        "The nose quivers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 93,
+      "question": "You see four clowns before you.\nOne cries, another disappears, the third moves, the fourth watches.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The clown cries",
+        "The clown disappears",
+        "The clown moves",
+        "The clown watches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    },
+    {
+      "id": 94,
+      "question": "You see four mirrors before you.\nOne smiles, another changes, the third laughs, the fourth distorts.\n\nIf the reflection is different — look at yourself.\n\nWhat will you choose?",
+      "options": [
+        "The mirror smiles",
+        "The mirror changes",
+        "The mirror laughs",
+        "The mirror distorts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: If the reflection is different — look at yourself."
+    },
+    {
+      "id": 95,
+      "question": "You see four flowers before you.\nOne freezes, another laughs, the third stays silent, the fourth corrupts.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The flower freezes",
+        "The flower laughs",
+        "The flower stays silent",
+        "The flower corrupts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 96,
+      "question": "You see four noses before you.\nOne cries, another moves, the third disappears, the fourth scowls.\n\nChoose the non-obvious.\n\nWhat will you choose?",
+      "options": [
+        "The nose cries",
+        "The nose moves",
+        "The nose disappears",
+        "The nose scowls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Choose the non-obvious."
+    },
+    {
+      "id": 97,
+      "question": "You see four masks before you.\nOne changes, another freezes, the third cries, the fourth mocks.\n\nFear is a sign that you are close.\n\nWhat will you choose?",
+      "options": [
+        "The mask changes",
+        "The mask freezes",
+        "The mask cries",
+        "The mask mocks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: Fear is a sign that you are close."
+    },
+    {
+      "id": 98,
+      "question": "You see four mirrors before you.\nOne smiles, another stays silent, the third laughs, the fourth shatters.\n\nWhat stays silent is more dangerous than what screams.\n\nWhat will you choose?",
+      "options": [
+        "The mirror smiles",
+        "The mirror stays silent",
+        "The mirror laughs",
+        "The mirror shatters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hint: What stays silent is more dangerous than what screams."
+    },
+    {
+      "id": 99,
+      "question": "You see four gloves before you.\nOne screams, another moves, the third laughs, the fourth clutches.\n\nLaughter can be a mask.\n\nWhat will you choose?",
+      "options": [
+        "The glove screams",
+        "The glove moves",
+        "The glove laughs",
+        "The glove clutches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hint: Laughter can be a mask."
+    }
+  ]
+]
