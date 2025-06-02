@@ -38,12 +38,13 @@ struct ProfileScreen: View {
                     .padding(.trailing, 80)
             }
             
-            HStack(spacing: 20) {
+            HStack(spacing: 16) {
                 if let image = viewModel.displayImage {
                     Image(uiImage: image)
                         .resizable()
-                        .scaledToFit()
-                        .frame(width: 180, height: 180)
+                        .scaledToFill()
+                        .frame(width: 120, height: 120)
+                        .clipShape(Circle())
                         .onTapGesture {
                             showingImagePicker = true
                         }
@@ -51,17 +52,19 @@ struct ProfileScreen: View {
                     Image(.accIcon)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 180, height: 180)
+                        .frame(width: 120, height: 120)
                         .onTapGesture {
                             showingImagePicker = true
                         }
                 }
                 
-                Text(authMain.currentuser?.name ?? "Anonimous")
-                    .font(.custom("Sancreek-Regular", size: 32))
+                Text(authMain.currentuser?.name ?? "Anonymous")
+                    .font(.custom("Sancreek-Regular", size: 28))
                     .foregroundStyle(.white)
                     .shadow(color: Color(r: 58, g: 0, b: 0), radius: 4, x: 0, y: 0)
-                    .padding(.trailing, 80)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
             .padding(.top, 40)
             Spacer()
