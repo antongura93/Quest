@@ -17,13 +17,51 @@
 		30511C062DF0379200D0AC11 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 30511C052DF0379200D0AC11 /* FirebaseFirestore */; };
 		30511C082DF0379200D0AC11 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 30511C072DF0379200D0AC11 /* FirebaseFunctions */; };
 		30511C0A2DF0379200D0AC11 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 30511C092DF0379200D0AC11 /* FirebaseRemoteConfig */; };
+		30511C6B2DF04D1F00D0AC11 /* notificationsvc.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 30511C642DF04D1F00D0AC11 /* notificationsvc.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30511C742DF04DDF00D0AC11 /* SdkPushExpress in Frameworks */ = {isa = PBXBuildFile; productRef = 30511C732DF04DDF00D0AC11 /* SdkPushExpress */; };
+		30511C762DF0509D00D0AC11 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 30511C752DF0509D00D0AC11 /* PrivacyInfo.xcprivacy */; };
+		30511C782DF0515700D0AC11 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30511C772DF0515700D0AC11 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		30511C692DF04D1F00D0AC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57C97EA2DD73DCD00EB42DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30511C632DF04D1F00D0AC11;
+			remoteInfo = notificationsvc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30511C702DF04D1F00D0AC11 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30511C6B2DF04D1F00D0AC11 /* notificationsvc.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		30511C642DF04D1F00D0AC11 /* notificationsvc.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = notificationsvc.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		30511C752DF0509D00D0AC11 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		30511C772DF0515700D0AC11 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D57C97F22DD73DCD00EB42DA /* Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		30511C6F2DF04D1F00D0AC11 /* Exceptions for "notificationsvc" folder in "notificationsvc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 30511C632DF04D1F00D0AC11 /* notificationsvc */;
+		};
 		D57C98042DD73DD000EB42DA /* Exceptions for "Quest" folder in "Quest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -34,6 +72,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		30511C652DF04D1F00D0AC11 /* notificationsvc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				30511C6F2DF04D1F00D0AC11 /* Exceptions for "notificationsvc" folder in "notificationsvc" target */,
+			);
+			path = notificationsvc;
+			sourceTree = "<group>";
+		};
 		D57C97F42DD73DCD00EB42DA /* Quest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -45,6 +91,14 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30511C612DF04D1F00D0AC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30511C742DF04DDF00D0AC11 /* SdkPushExpress in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D57C97EF2DD73DCD00EB42DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,6 +110,7 @@
 				30511BF92DF036A500D0AC11 /* AppsFlyerLib in Frameworks */,
 				30511C042DF0379200D0AC11 /* FirebaseCore in Frameworks */,
 				30511C062DF0379200D0AC11 /* FirebaseFirestore in Frameworks */,
+				30511C782DF0515700D0AC11 /* AdSupport.framework in Frameworks */,
 				30511BFC2DF0379200D0AC11 /* FirebaseAnalytics in Frameworks */,
 				30511BFE2DF0379200D0AC11 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				30511C0A2DF0379200D0AC11 /* FirebaseRemoteConfig in Frameworks */,
@@ -65,10 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30511C722DF04DDF00D0AC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30511C772DF0515700D0AC11 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D57C97E92DD73DCD00EB42DA = {
 			isa = PBXGroup;
 			children = (
+				30511C752DF0509D00D0AC11 /* PrivacyInfo.xcprivacy */,
 				D57C97F42DD73DCD00EB42DA /* Quest */,
+				30511C652DF04D1F00D0AC11 /* notificationsvc */,
+				30511C722DF04DDF00D0AC11 /* Frameworks */,
 				D57C97F32DD73DCD00EB42DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				D57C97F22DD73DCD00EB42DA /* Quest.app */,
+				30511C642DF04D1F00D0AC11 /* notificationsvc.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +151,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		30511C632DF04D1F00D0AC11 /* notificationsvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30511C6C2DF04D1F00D0AC11 /* Build configuration list for PBXNativeTarget "notificationsvc" */;
+			buildPhases = (
+				30511C602DF04D1F00D0AC11 /* Sources */,
+				30511C612DF04D1F00D0AC11 /* Frameworks */,
+				30511C622DF04D1F00D0AC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30511C652DF04D1F00D0AC11 /* notificationsvc */,
+			);
+			name = notificationsvc;
+			packageProductDependencies = (
+				30511C732DF04DDF00D0AC11 /* SdkPushExpress */,
+			);
+			productName = notificationsvc;
+			productReference = 30511C642DF04D1F00D0AC11 /* notificationsvc.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D57C97F12DD73DCD00EB42DA /* Quest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57C98052DD73DD000EB42DA /* Build configuration list for PBXNativeTarget "Quest" */;
@@ -91,10 +181,12 @@
 				D57C97EE2DD73DCD00EB42DA /* Sources */,
 				D57C97EF2DD73DCD00EB42DA /* Frameworks */,
 				D57C97F02DD73DCD00EB42DA /* Resources */,
+				30511C702DF04D1F00D0AC11 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				30511C6A2DF04D1F00D0AC11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				D57C97F42DD73DCD00EB42DA /* Quest */,
@@ -123,9 +215,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					30511C632DF04D1F00D0AC11 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					D57C97F12DD73DCD00EB42DA = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -151,21 +246,37 @@
 			projectRoot = "";
 			targets = (
 				D57C97F12DD73DCD00EB42DA /* Quest */,
+				30511C632DF04D1F00D0AC11 /* notificationsvc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D57C97F02DD73DCD00EB42DA /* Resources */ = {
+		30511C622DF04D1F00D0AC11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D57C97F02DD73DCD00EB42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30511C762DF0509D00D0AC11 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		30511C602DF04D1F00D0AC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D57C97EE2DD73DCD00EB42DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,19 +286,92 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		30511C6A2DF04D1F00D0AC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30511C632DF04D1F00D0AC11 /* notificationsvc */;
+			targetProxy = 30511C692DF04D1F00D0AC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		30511C6D2DF04D1F00D0AC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notificationsvc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = notificationsvc;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali.notificationsvc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30511C6E2DF04D1F00D0AC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notificationsvc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = notificationsvc;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali.notificationsvc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		D57C98062DD73DD000EB42DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quest/Quest.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quest/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TriPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose an image for your profile icon.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -200,6 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -218,13 +403,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quest/Quest.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quest/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TriPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose an image for your profile icon.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -237,6 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -372,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30511C6C2DF04D1F00D0AC11 /* Build configuration list for PBXNativeTarget "notificationsvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30511C6D2DF04D1F00D0AC11 /* Debug */,
+				30511C6E2DF04D1F00D0AC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D57C97ED2DD73DCD00EB42DA /* Build configuration list for PBXProject "Quest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -469,6 +667,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 30511BFA2DF0379200D0AC11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseRemoteConfig;
+		};
+		30511C732DF04DDF00D0AC11 /* SdkPushExpress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30511BF42DF0365A00D0AC11 /* XCRemoteSwiftPackageReference "pushexpress-swift-sdk" */;
+			productName = SdkPushExpress;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
