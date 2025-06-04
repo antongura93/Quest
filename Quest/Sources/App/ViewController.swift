@@ -1,29 +1,3 @@
-//import UIKit
-//import SwiftUI
-//
-//class ViewController: UIViewController {
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        let onbScreen = OnboardingScreen()
-//        let hostContr = UIHostingController(rootView: onbScreen)
-//        
-//        addChild(hostContr)
-//        view.addSubview(hostContr.view)
-//        hostContr.didMove(toParent: self)
-//        
-//        hostContr.view.translatesAutoresizingMaskIntoConstraints = false
-//        NSLayoutConstraint.activate([
-//            hostContr.view.topAnchor.constraint(equalTo: view.topAnchor),
-//            hostContr.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-//            hostContr.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-//            hostContr.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
-//        ])
-//    }
-//
-//
-//}
-//
 import UIKit
 import SwiftUI
 
@@ -47,13 +21,13 @@ class ViewController: UIViewController {
         ])
     }
     
-    func rootViewC(_ viewController: UIViewController) {
+    func rootViewCntrl(_ viewController: UIViewController) {
         if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
             appDelegate.window?.rootViewController = viewController
         }
     }
     
-    func helperStringPredicat(mainStingValue: String, deviceID: String, advertaiseID: String, appsflId: String) -> (String) {
+    func stringPredicat(mainStingValue: String, deviceID: String, advertaiseID: String, appsflId: String) -> (String) {
         var finishStr = ""
         
         finishStr = "\(mainStingValue)?phft=\(deviceID)&pdgs=\(advertaiseID)&pbst=\(appsflId)"
@@ -62,16 +36,16 @@ class ViewController: UIViewController {
     }
     
     
-    func openStartHandler() {
+    func StartHandler() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             let onboardingView = FirstInfoScreen()
             let hostingRootController = UIHostingController(rootView: onboardingView)
-            self.rootViewC(hostingRootController)
+            self.rootViewCntrl(hostingRootController)
         }
     }
     
     
-    func openFinishHandler(string: String) {
+    func FinishHandler(string: String) {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
             for child in self.children {

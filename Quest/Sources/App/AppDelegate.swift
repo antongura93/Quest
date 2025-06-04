@@ -1,43 +1,22 @@
-//import UIKit
-//import FirebaseCore
-//
-//@main
-//class AppDelegate: UIResponder, UIApplicationDelegate {
-//
-//    var window: UIWindow?
-//
-//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        // Override point for customization after application launch.
-//        FirebaseApp.configure()
-//        
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        window?.rootViewController = ViewController()
-//        window?.makeKeyAndVisible()
-//        
-//        return true
-//    }
-//
-//}
-//
 import SwiftUI
 import FirebaseCore
-import FirebaseAnalytics
-import FirebaseInstallations
-import FirebaseRemoteConfigInternal
 import FirebaseAuth
 import SdkPushExpress
 import AppsFlyerLib
 import AppTrackingTransparency
+import FirebaseAnalytics
+import FirebaseInstallations
+import FirebaseRemoteConfigInternal
 import AdSupport
 
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, DeepLinkDelegate {
     var timeValue = 0
-    var ident: String = ""
     var analyticId: String = ""
-    private let privatePushAppId = "40229-1202"
+    var ident: String = ""
     private var privateExternalId = ""
+    private let privatePushAppId = "40229-1202"
     private var remoteConfig: RemoteConfig?
     var window: UIWindow?
     weak var initViewController: ViewController?
@@ -71,7 +50,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         AppsFlyerLib.shared().start()
         AppsFlyerLib.shared().waitForATTUserAuthorization(timeoutInterval: 60)
         
-        //MARK: - PUSH_EXPRESS
         privateExternalId = analyticId
         
         let options: UNAuthorizationOptions = [.alert, .badge, .sound]
@@ -91,11 +69,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 try PushExpressManager.shared.initialize(appId: self.privatePushAppId)
                 try PushExpressManager.shared.activate(extId: self.privateExternalId)
             } catch {
-                print("Error initializing or activating PushExpressManager: \(error)")
+                print(" Error initializing or activating PushExpressManager: \(error)")
             }
             
             if !PushExpressManager.shared.notificationsPermissionGranted {
-                print("Notifications permission not granted. Please enable notifications in Settings.")
+                print(" Notifications permission not granted. Please enable notifications in Settings.")
             }
         }
         
@@ -132,15 +110,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 self.remoteConfig?.activate { _, error in
                     DispatchQueue.main.async {
                         if error != nil {
-                            viewController.openStartHandler()
+                            viewController.StartHandler()
                             return
                         }
                         
                         if let remString = self.remoteConfig?.configValue(forKey: "quest").stringValue {
                             if !remString.isEmpty {
                                 if let finalURL = UserDefaults.standard.string(forKey: "finalURL") {
-                                    viewController.openFinishHandler(string: finalURL)
-                                    print("SECOND OPEN: \(finalURL)")
+                                    viewController.FinishHandler(string: finalURL)
+                                    print(" SECOND OPEN: \(finalURL)")
                                     return
                                 }
                                 
@@ -150,32 +128,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                                 }
                                 
                                 if self.ident.isEmpty {
-                                    viewController.openStartHandler()
+                                    viewController.StartHandler()
                                     return
                                 }
                                 
                                 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(self.timeValue)) {
-                                    let stringURL = viewController.helperStringPredicat(mainStingValue: remString, deviceID: self.analyticId, advertaiseID: self.ident, appsflId: appsID)
+                                    let stringURL = viewController.stringPredicat(mainStingValue: remString, deviceID: self.analyticId, advertaiseID: self.ident, appsflId: appsID)
                                     
-                                    print("Result: \(stringURL)")
+                                    print(" Result: \(stringURL)")
                                     
                                     guard let url = URL(string: stringURL) else {
-                                        viewController.openStartHandler()
+                                        viewController.StartHandler()
                                         return
                                     }
                                     
                                     if UIApplication.shared.canOpenURL(url) {
-                                        viewController.openFinishHandler(string: stringURL)
+                                        viewController.FinishHandler(string: stringURL)
                                     } else {
-                                        viewController.openStartHandler()
+                                        viewController.StartHandler()
                                     }
                                 }
                                 
                             } else {
-                                viewController.openStartHandler()
+                                viewController.StartHandler()
                             }
                         } else {
-                            viewController.openStartHandler()
+                            viewController.StartHandler()
                         }
                     }
                 }
@@ -199,17 +177,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             case .denied:
                 self.ident = ASIdentifierManager.shared().advertisingIdentifier.uuidString
             case .notDetermined:
-                print("Not Determined")
+                print(" Not Determined")
             case .restricted:
-                print("Restricted")
+                print(" Restricted")
             @unknown default:
-                print("Unknown")
+                print(" Unknown")
             }
         }
         AppsFlyerLib.shared().start()
     }
     
-    //MARK: - Push_Notification_Handling
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokPart = deviceToken.map { data in String(format: "%02.2hhx", data) }
         let tok = tokPart.joined()
@@ -217,7 +194,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("Failed to register remote notifications: \(error)")
+        print(" Failed to register remote notifications: \(error)")
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter,
@@ -225,7 +202,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                                 withCompletionHandler completionHandler: @escaping () -> Void
     ) {
         let userInfo = response.notification.request.content.userInfo
-        print("Notification response: \(userInfo)")
+        print(" Notification response: \(userInfo)")
         NotificationCenter.default.post(name: Notification.Name("didReceiveRemoteNotification"), object: nil, userInfo: userInfo)
         completionHandler()
     }
@@ -236,7 +213,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
     ) {
         let userInfo = notification.request.content.userInfo
-        print("Received notification while app is in foreground mode: \(userInfo)")
+        print(" Received notification while app is in foreground mode: \(userInfo)")
         completionHandler([.banner, .list, .sound])
     }
 
@@ -245,10 +222,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
 extension AppDelegate: AppsFlyerLibDelegate {
     func onConversionDataSuccess(_ data: [AnyHashable: Any]) {
-        print("onConversionDataSuccess \(data)")
+        print(" onConversionDataSuccess \(data)")
     }
     
     func onConversionDataFail(_ error: Error) {
-        print ("onConversionDataFail \(error)")
+        print (" onConversionDataFail \(error)")
     }
 }

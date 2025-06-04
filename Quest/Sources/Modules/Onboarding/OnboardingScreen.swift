@@ -32,11 +32,6 @@ struct OnboardingScreen: View {
                     .resizable()
                     .ignoresSafeArea()
             )
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                    isLoad = true
-                }
-            }
         }
     }
 }

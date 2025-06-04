@@ -1,30 +1,30 @@
-import UIKit
 import WebKit
+import UIKit
 import Foundation
 
 class AppViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
-    var wkWebView: WKWebView!
-    var urlStr: String
-    var isRedirectingValue = false
+    var WebView: WKWebView!
+    var url: String
+    var isRedirecting = false
     
     init(urlStr: String) {
-        self.urlStr = urlStr
+        self.url = urlStr
         super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented yet")
+        fatalError(" init(coder:) has not been implemented yet")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let url = URL(string: self.urlStr), url.absoluteString.contains("bot") {
-            print("Initial URL doesn't contain 'bot', trying to opening app directly")
+        if let url = URL(string: self.url), url.absoluteString.contains("bot") {
+            print(" Initial URL doesn't contain 'bot', trying to opening app directly")
             
             let viewController = ViewController()
             DispatchQueue.main.async {
-                viewController.openStartHandler()
+                viewController.StartHandler()
             }
             
             return
@@ -54,17 +54,17 @@ class AppViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
             bottomBackgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
         
-        self.wkWebView = self.deafoultSetupWeb(frame: self.view.bounds, configuration: nil)
-        self.view.addSubview(self.wkWebView)
+        self.WebView = self.deafoultSetupWeb(frame: self.view.bounds, configuration: nil)
+        self.view.addSubview(self.WebView)
         
-        self.wkWebView.alpha = 0
+        self.WebView.alpha = 0
         self.view.alpha = 0
         
         self.constrsHandling()
         
-        if let url = URL(string: self.urlStr) {
+        if let url = URL(string: self.url) {
             let urlRequest = URLRequest(url: url)
-            self.wkWebView.load(urlRequest)
+            self.WebView.load(urlRequest)
         }
         
         self.makeWindowAsync()
@@ -99,29 +99,29 @@ class AppViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     func constrsHandling() {
         NSLayoutConstraint.activate([
-            self.wkWebView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
-            self.wkWebView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
-            self.wkWebView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
-            self.wkWebView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
+            self.WebView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+            self.WebView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+            self.WebView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            self.WebView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
         ])
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         if #available(iOS 15.0, *) {
-            self.view.backgroundColor = self.wkWebView.underPageBackgroundColor
+            self.view.backgroundColor = self.WebView.underPageBackgroundColor
             if let finalURL = webView.url {
-                print("Final URL after all redirects: \(finalURL.absoluteString)")
-                self.isRedirectingValue = false
+                print(" Final URL after all redirects: \(finalURL.absoluteString)")
+                self.isRedirecting = false
                 if UserDefaults.standard.string(forKey: "finalURL") == nil {
                     UserDefaults.standard.set(finalURL.absoluteString, forKey: "finalURL")
                 }
             }
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                if !self.isRedirectingValue {
+                if !self.isRedirecting {
                     self.view.alpha = 1
-                    self.wkWebView.alpha = 1
-                    print("WebView fully loaded with final URL.")
+                    self.WebView.alpha = 1
+                    print(" WebView fully loaded with final URL.")
                 }
             }
         }
@@ -140,16 +140,16 @@ class AppViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
         }
         
         if UserDefaults.standard.string(forKey: "finalURL") == nil {
-            print("Redirected to: \(url.absoluteString)")
-            isRedirectingValue = true
+            print(" Redirected to: \(url.absoluteString)")
+            isRedirecting = true
         }
         
         if url.absoluteString.contains("bot") {
-            print("Redirect contains 'bot', open app")
+            print(" Redirect contains 'bot', open app")
             DispatchQueue.main.async { [weak self] in
                 self?.dismiss(animated: false, completion: {
                     let viewController = ViewController()
-                    viewController.openStartHandler()
+                    viewController.StartHandler()
                 })
             }
         }
@@ -283,6 +283,7 @@ private extension String {
         }
     }
 }
+
 
 class Orientation {
     private static var preferredOrientation: UIInterfaceOrientationMask {
