@@ -308,7 +308,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali.notificationsvc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -339,7 +339,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali.notificationsvc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -365,7 +365,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quest/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TriPick;
+				INFOPLIST_KEY_CFBundleDisplayName = "JokER Pick";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose an image for your profile icon.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads";
@@ -380,7 +380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,7 +406,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quest/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TriPick;
+				INFOPLIST_KEY_CFBundleDisplayName = "JokER Pick";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose an image for your profile icon.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads";
@@ -421,7 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alimeqebaali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
